@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container"><font face="Trebuchet MS" color="#ffffff">
+        <h1>Temperature Converter</h1>
+        <label for="celsius">Celsius:</label>
+        <input type="number" id="celsius" oninput="convert('C')" placeholder="Enter temperature in Celsius">
+        <span id="celsiusToFahrenheit"></span>
+        <label for="fahrenheit">Fahrenheit:</label>
+        <input type="number" id="fahrenheit" oninput="convert('F')" placeholder="Enter temperature in Fahrenheit">
+        <span id="fahrenheitToCelsius"></span>
+    </font></div>
+    <script src="script.js"></script>
+</body>
+</html>
